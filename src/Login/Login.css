@@ -1,0 +1,10 @@
+button.login {
+    padding: 12px 10px;
+    font-size: 1.1rem;
+    background-color: #4c5eaf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }

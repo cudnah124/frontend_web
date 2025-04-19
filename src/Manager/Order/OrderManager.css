@@ -1,0 +1,32 @@
+.order-manager-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    height: 200vh;
+    overflow-y: auto;
+  }
+  
+  .order-manager-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+
+  }
+  
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .order-table th, .order-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .order-table th {
+    background-color: #f2f2f2;
+  }
+  

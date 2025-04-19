@@ -1,0 +1,50 @@
+.revenue-container {
+  padding: 40px;
+  background: #f9fbff;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.revenue-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.revenue-summary {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  background: #e1f5fe;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.revenue-list table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.revenue-list th,
+.revenue-list td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #f0f0f0;
+  text-align: left;
+}
+
+.revenue-list th {
+  background: #ecf0f1;
+  font-weight: bold;
+}
+
+.revenue-list tr:hover {
+  background: #f5fafd;
+}
+
+

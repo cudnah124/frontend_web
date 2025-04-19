@@ -1,0 +1,70 @@
+.employee-table-container {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .employee-table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    background: white;
+  }
+  
+  .employee-table th,
+  .employee-table td {
+    border: 1px solid #ccc;
+    padding: 12px 16px;
+    text-align: left;
+  }
+  
+  .employee-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  .employee-table tr:hover {
+    background-color: #f0f8ff;
+  }
+  
+  .employee-add-button {
+    margin-bottom: 20px;
+    padding: 10px 16px;
+    font-size: 16px;
+    background-color: #3cb371;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .employee-add-button:hover {
+    background-color: #2e8b57;
+  }
+
+  .employee-action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .employee-action-buttons button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .employee-action-buttons button:hover {
+    opacity: 0.9;
+  }
+  
+  .employee-action-buttons .delete {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .employee-action-buttons .delete:hover {
+    background-color: #d32f2f;
+  }

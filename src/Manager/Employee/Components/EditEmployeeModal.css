@@ -1,0 +1,81 @@
+/* EditEmployeeModal.css */
+.employee-modal {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .employee-modal-content {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    min-width: 500px;  /* Đặt chiều rộng cho modal */
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  /* Hiệu ứng đổ bóng */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Giữa các phần tử */
+  }
+  
+  .employee-close {
+    float: right;
+    cursor: pointer;
+    font-size: 24px;
+    color: #888;
+    background: none;
+    border: none;
+    margin: 0;
+  }
+  
+  .employee-close:hover {
+    color: #333; /* Màu khi hover */
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box; /* Đảm bảo input không bị lệch */
+  }
+  
+  input:focus {
+    border-color: #4caf50; /* Màu viền khi focus */
+    outline: none;
+  }
+  
+  button.employee-edit {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
