@@ -31,7 +31,7 @@ function Login() {
           role
         },
         {
-          timeout: 10000 // tránh request bị treo
+          timeout: 200000 // tránh request bị treo
         }
       );
 
