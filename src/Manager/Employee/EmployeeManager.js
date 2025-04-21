@@ -27,7 +27,7 @@ const EmployeeManager = () => {
   useEffect(() => {
     const fetchEmployees = async () => {
       try {
-        const res = await axios.get('http://localhost:3001/api/employees');
+        const res = await axios.get('https://backend-web-q7f1.onrender.com/api/employees');
         setEmployees(res.data);
       } catch (err) {
         console.error('Lỗi lấy nhân viên:', err);

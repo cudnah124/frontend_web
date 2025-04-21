@@ -37,7 +37,7 @@ const OrderManager = () => {
   useEffect(() => {
     const fetchOrders = async () => {
       try {
-        const res = await axios.get('http://localhost:3001/api/orders');
+        const res = await axios.get('https://backend-web-q7f1.onrender.com/api/orders');
         setOrders(res.data);
       } catch (error) {
         console.error('Lỗi khi lấy đơn hàng:', error);

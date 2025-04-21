@@ -9,7 +9,7 @@ import './Menu.css';
 // Hàm gọi API (giả sử API trả về dữ liệu giống menuItems)
 const fetchMenuItems = async () => {
   try {
-    const response = await fetch('http://localhost:5000/api/menu');  // Thay thế bằng URL thật của API
+    const response = await fetch('https://backend-web-q7f1.onrender.com/api/menu');  // Thay thế bằng URL thật của API
     const data = await response.json();
     return data;  // Dữ liệu trả về phải có cấu trúc giống menuItems
   } catch (error) {
